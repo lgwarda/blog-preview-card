@@ -9,19 +9,19 @@
 /* Font Faces */
 @font-face {
     font-family: 'Figtree-ExtraBold';
-    src: url("/assets/fonts/static/Figtree-ExtraBold.ttf") format("truetype");
+    src: url("../assets/fonts/static/Figtree-ExtraBold.ttf") format("truetype");
     font-weight: 800;
 }
 
 @font-face {
     font-family: 'Figtree-SemiBold';
-    src: url("/assets/fonts/static/Figtree-SemiBold.ttf") format("truetype");
+    src: url("../assets/fonts/static/Figtree-SemiBold.ttf") format("truetype");
     font-weight: 600;
 }
 
 @font-face {
     font-family: 'Figtree-variable';
-    src: url("/assets/fonts/Figtree-VariableFont_wght.ttf") format("truetype");
+    src: url("../assets/fonts/Figtree-VariableFont_wght.ttf") format("truetype");
 }
 :root {
     /* Colors and Fonts */
