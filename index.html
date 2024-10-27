@@ -4,93 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="stylesheet" href="css/style.css">
     <title>Frontend Mentor | Blog preview card</title>
-    <style>
-      
-      :root {
-        --color-yellow: hsl(47, 88%, 63%);
-        --color-white: hsl(0, 0%, 100%);
-        --color-gray-500: hsl(0, 0%, 42%);
-        --color-gray-950: hsl(0, 0%, 7%);
-      }
-
-      body {
-          margin: 0;
-          min-height: 100vh;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          background-color: var(--color-yellow);
-          font-family: 'Figtree', sans-serif;
-          padding: 1rem;
-      }
-
-      .card {
-          background: white;
-          max-width: 364px;
-          border-radius: 20px;
-          border: 1px solid black;
-          padding: 1.5rem;
-          box-shadow: 8px 8px 0 0 rgba(0, 0, 0, 1);
-      }
-
-      .card-image {
-          width: 100%;
-          border-radius: 10px;
-          margin-bottom: 1.5rem;
-      }
-
-      .tag {
-          background-color: var(--color-yellow);
-          padding: 0.25rem 0.75rem;
-          border-radius: 4px;
-          font-weight: 800;
-          font-size: 0.875rem;
-          display: inline-block;
-      }
-
-      .date {
-          display: block;
-          margin: 1rem 0;
-          color: hsl(0, 0%, 50%);
-          font-weight: 500;
-      }
-
-      .title {
-          font-size: 1.5rem;
-          font-weight: 800;
-          margin: 0 0 1rem 0;
-          color: hsl(0, 0%, 7%);
-      }
-
-      .title:hover {
-          color: var(--color-yellow);
-          cursor: pointer;
-      }
-
-      .description {
-          color: var(--color-gray-500);
-          line-height: 1.5;
-          margin: 0 0 1.5rem 0;
-      }
-
-      .author {
-          display: flex;
-          align-items: center;
-          gap: 0.75rem;
-      }
-
-      .avatar {
-          width: 32px;
-          height: 32px;
-          border-radius: 50%;
-      }
-
-      .author-name {
-          font-weight: 800;
-          color: var(--color-gray-950);
-      }
-  </style>
+    
 </head>
 <body>
     <main>
